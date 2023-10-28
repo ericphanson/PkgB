@@ -28,7 +28,7 @@ jobs:
           arch: ${{ matrix.julia-arch }}
       - run: |
           using Pkg; Pkg.develop(url="https://github.com/ericphanson/PkgA");
-        shell: julia --project=. $0
+        shell: julia --color=yes --project=. {0}
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1
         # with:
