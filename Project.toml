@@ -1,0 +1,9 @@
+name = "PkgB"
+uuid = "66a32e41-9059-454f-bb51-fd7bbed1245d"
+authors = ["Eric Hanson <5846501+ericphanson@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PkgA = "ae4a154e-1ddb-4467-9ee9-a6440ed2f538"
